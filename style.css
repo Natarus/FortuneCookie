@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('background.jpg');
+    font-family: 'Lilita One', cursive;
+}
+
+.app {
+    justify-content: center;
+    text-align: center;
+    background: rgba(70, 70, 70, 0.5);
+    margin: auto;
+    margin-top: 32px;
+    padding: 32px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.app > p {
+    margin: 0;
+    padding: 8px;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-size: 32px;
+}
+
+.form {
+    margin: 16px;
+}
+
+.form > input {
+    margin: auto;
+    height: 32px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.form > input:focus {
+    outline: none;
+}
+
+
+.botones {
+    width: 100%;
+    margin: auto;
+    margin-top: 16px;
+    color :white;
+    font-family: sans-serif;
+    background: grey;
+    border-radius: 8px;
+    height: 32px;
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.botones:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.botones:active {
+	position:relative;
+	top:1px;
+}
+
+
+.botones:focus {
+    outline: none;
+}
+
+#retorno {
+    background: white;
+    border-radius: 16px;
+}
